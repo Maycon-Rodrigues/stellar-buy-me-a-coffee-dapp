@@ -5,4 +5,5 @@ use soroban_sdk::contracterror;
 pub enum ContractError {
     FailedToGetBalance = 1,
     InvalidAmount = 2,
+    NoSupporters = 3,
 }
