@@ -1,0 +1,15 @@
+---
+import Layout from "../layouts/Layout.astro";
+import CoffeeApp from "../components/CoffeeApp";
+
+// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
+// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+---
+
+<Layout>
+  <div
+    class="min-h-screen bg-gradient-to-br from-amber-50 via-orange-50 to-yellow-50"
+  >
+    <CoffeeApp client:only="preact" />
+  </div>
+</Layout>

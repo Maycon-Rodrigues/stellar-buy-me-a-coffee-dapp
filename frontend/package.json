@@ -1,0 +1,25 @@
+{
+  "name": "frontend",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/preact": "^4.1.0",
+    "@creit.tech/stellar-wallets-kit": "^1.7.3",
+    "@stellar/stellar-sdk": "^12.3.0",
+    "@tailwindcss/vite": "^4.1.8",
+    "astro": "^5.8.1",
+    "buffer": "^6.0.3",
+    "buymeacoffee-sdk": "file:../buymeacoffee-sdk",
+    "preact": "^10.26.8",
+    "process": "^0.11.10",
+    "tailwindcss": "^4.1.8",
+    "typescript": "^5.8.3",
+    "util": "^0.12.5"
+  }
+}
