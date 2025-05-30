@@ -25,5 +25,10 @@ export default defineConfig({
         util: "util",
       },
     },
+    build: {
+      rollupOptions: {
+        external: ["buffer", "@stellar/stellar-sdk/contract"],
+      },
+    },
   },
 });
